@@ -10,13 +10,28 @@ package Suporte;
  * @author erica
  */
 public class Estoque {
-
+    
     private int codigo;
     private String descricao;
     private String unidade;
     private float saldo;
-    private float vlUnitario;
+    private float valorUnitario;
     private String acao;
+    /**
+     * @return the valorUnitario
+     */
+    public float getValorUnitario() {
+        return valorUnitario;
+    }
+
+    /**
+     * @param valorUnitario the valorUnitario to set
+     */
+    public void setValorUnitario(float valorUnitario) {
+        this.valorUnitario = valorUnitario;
+    }
+
+   
     /**
      * @return the codigo
      */
@@ -71,20 +86,6 @@ public class Estoque {
      */
     public void setSaldo(float saldo) {
         this.saldo = saldo;
-    }
-
-    /**
-     * @return the vlUnitario
-     */
-    public float getVlUnitario() {
-        return vlUnitario;
-    }
-
-    /**
-     * @param vlUnitario the vlUnitario to set
-     */
-    public void setVlUnitario(float vlUnitario) {
-        this.vlUnitario = vlUnitario;
     }
 
     /**

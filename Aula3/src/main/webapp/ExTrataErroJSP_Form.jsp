@@ -28,9 +28,9 @@
             DESCRICAO.......: <%=item.getDescricao()%>
             UNIDADE.........: <%=item.getUnidade()%>
             SALDO...........: <%=item.getSaldo()%>
-            VALOR UNITARIO..: <%=item.getVlUnitario()%>
+            VALOR UNITARIO..: <%=item.getValorUnitario()%>
             ---------------------------------------------------------
-            VALOR TOTAL.....: <%=(item.getSaldo() * item.getVlUnitario())%>
+            VALOR TOTAL.....: <%=(item.getSaldo() * item.getValorUnitario())%>
 
         </pre>
     </body>
