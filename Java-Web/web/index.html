@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculo de IMC em JSP</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>IMC (Índice de Massa Corporal)</h3>
+        <div id="div1">
+            <p>Calculadora IMC</p>
+            <p>IMC = ( peso / altura * altura )</p>
+            <form action="index1_resp.jsp" method="get" target="result">
+                PESO....: <input type="text" name="peso" maxlength="5">
+                ALTURA..: <input type="text" name="altura" maxlength="5">
+                <input type="submit" name="enviar" value="Calcula IMC">
+            </form>   
+        </div>
+        <div id="div2">
+            <iframe name ="result" width="400" height="200" frameborder="0">
+            </iframe>
+        </div>
+    </body>
+</html>
